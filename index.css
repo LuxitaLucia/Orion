@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 body {
-  font-family: "Livvic", sans-serif;
+  font-family: 'Livvic', sans-serif;
   margin: 0;
 }
 
@@ -132,9 +132,68 @@ body {
   object-fit: cover;
 }
 
-.hero-section2{
-
+.hero-section2 {
+  display: flex;
+  justify-content: center;
+  background-color: #3b43f2;
 }
-.hero2{
 
+.hero2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 825px;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: calc(100vh - 55px);
+}
+
+.hero2 .img-wrapper2 {
+  width: 420px;
+  height: 420px;
+  position: absolute;
+  border-radius: 18px;
+  background: #b4b4b4;
+  box-shadow: -40px 2px 80px 0px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.hero2 .img-wrapper2 img {
+  width: 420px;
+  height: 420px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.hero2 .text2 {
+  width: 300px;
+  height: ;
+}
+.hero2 .text2 .small2 {
+  width: 18px;
+  height: 27px;
+  color: #222a41;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  line-height: 27px;
+}
+.hero2 .text2 .nav2 {
+  color: #293340;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero2 .text2 .description2 {
+  width: 386px;
+  height: 120px;
+  flex-shrink: 0;
+  color: red;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+}
+.button2 {
 }
