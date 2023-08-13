@@ -5,78 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document test</title>
-    <style>
-      .navigation-bar {
-        width: 1280px;
-        height: 72px;
-        flex-shrink: 0;
-      }
-      .logo {
-        color: #fff;
-        text-align: center;
-        font-family: Livvic;
-        font-size: 34px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 51px; /* 150% */
-        width: 55px;
-        height: 52.8px;
-        flex-shrink: 0;
-      }
-
-      .about {
-        color: #222a41;
-        font-family: Livvic;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px; /* 150% */
-        width: 329px;
-      }
-      .facebook {
-        width: 8px;
-        height: 13.44px;
-        flex-shrink: 0;
-      }
-      .twitter {
-        width: 13px;
-        height: 10.56px;
-        flex-shrink: 0;
-      }
-      .google {
-        display: flex;
-        width: 13px;
-        height: 12.48px;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-      }
-      .pleceholder {
-        width: 40px;
-        height: 38.4px;
-        flex-shrink: 0;
-        stroke-width: 1px;
-        stroke: #dbdbdb;
-      }
-      .header {
-        width: 1280px;
-        height: 5594px;
-      }
-    </style>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <div class="header">
       <div class="navigation-bar">
-        <img src="images/logo.svg" alt="" class="logo" />
-        <img src="images/about.svg" alt="" class="about" />
-        <img src="images/facebook.svg" alt="" class="facebook" />
-        <img src="images/placeholder.svg" alt="" class="placeholder" />
-        <p><img src="images/twitter.svg" alt="" class="twitter" /></p>
-
-        <img src="images/placeholder.svg" alt="" class="placeholder" />
-        <p><img src="group3svg" alt="" class="google" /></p>
-        <img src="images/retangle.svg" alt="" />
-        <img src="images/ornament.svg" alt="" />
+        <div class="menu">
+          <img src="images/logo.svg" alt="" class="logo" />
+          <div class="nav">
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+        <div class="social">
+          <a href="https://facebook.com" target="_blank">
+            <img src="images/social-fb.svg" alt="" />
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <img src="images/social-ig.svg" alt="" />
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <img src="images/social-tw.svg" alt="" />
+          </a>
+        </div>
       </div>
     </div>
     <br />
