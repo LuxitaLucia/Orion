@@ -151,8 +151,7 @@ body {
 .hero2 .img-wrapper2 {
   width: 420px;
   height: 420px;
-  flex-shrink: 0;
-  border-radius: 18px;
+  border-radius: 28px;
   background: #b4b4b4;
   box-shadow: -40px 2px 80px 0px rgba(0, 0, 0, 0.5);
   overflow: hidden;
@@ -181,7 +180,9 @@ body {
   font-weight: 400;
   line-height: normal;
   margin-bottom: 20px;
+  align-items: center;
   justify-content: space-between;
+  gap: 10px;
 }
 .hero2 .text2 .description2 {
   width: 386px;
@@ -204,4 +205,42 @@ body {
   color: #fff;
   text-align: center;
   margin-bottom: 20px;
+}
+
+.third-section {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  width: 332px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ability-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 825px;
+  width: 100%;
+  margin-left: 650px;
+
+  height: calc(100vh - 55px);
+}
+.ability-section .skills-section {
+  color: #222a41;
+  font-size: 18px;
+  line-height: 27px;
+}
+.ability-section .skills-description {
+  width: 332px;
+  height: 48px;
+  color: #6d7783;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
