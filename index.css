@@ -138,6 +138,7 @@ body {
 }
 
 .hero2 {
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -208,37 +209,36 @@ body {
 }
 
 .third-section {
+  background-color:red;
   display: flex;
-  justify-content: center;
-  display: flex;
-  width: 332px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 10px;
-}
-
-.ability-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   max-width: 825px;
   width: 100%;
-  margin-left: 650px;
-
+  margin-left: 20px;
+  margin-right: 20px;
   height: calc(100vh - 55px);
 }
-.ability-section .skills-section {
-  color: #222a41;
-  font-size: 18px;
-  line-height: 27px;
+
+.third-section .ability-section {
+  width: 300px;
+  height: 250px;
 }
-.ability-section .skills-description {
+.third-section .ability-section .skills-section {
+  color: #222a41;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+.third-section .ability-section .skills-description {
   width: 332px;
   height: 48px;
   color: #6d7783;
   text-align: center;
-  font-family: Livvic;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
