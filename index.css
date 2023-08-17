@@ -314,37 +314,35 @@ body {
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
-  line-height: 50px; /* 133.333% */
+  line-height: 10px; /* 133.333% */
   letter-spacing: -1.765px;
   top: 0px;
+  
 }
 .next-rectangle .p-rectangle {
   width: 332px;
   height: 48px;
-  flex-shrink: 0;
   color: #fff;
   font-size: 15px;
+  border-left:-20px ;
 }
 .next-rectangle .abilities {
-  color: #fff;
+  color: #FFF;
   display: flex;
-  margin-left: 60px;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  gap: 40px;
+  line-height:10px;
+  gap: 30px;
 }
 .next-rectangle .buton {
   color: #fff;
-  width: 120px;
-  display: block;
+  display:flex;
   text-decoration: none;
   height: 50px;
   line-height: 50px;
-
   border-radius: 25px;
-
   text-align: center;
   margin-bottom: 20px;
+  gap: 50px;
 }
