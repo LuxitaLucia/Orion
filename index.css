@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 body {
-  font-family: "Livvic", sans-serif;
+  font-family: 'Livvic', sans-serif;
   margin: 0;
 }
 
@@ -219,8 +219,6 @@ body {
   text-align: center;
 }
 
-.third-section .ability-section {
-}
 .third-section .ability-section .skills-section {
   color: #222a41;
   font-size: 18px;
@@ -340,6 +338,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 10px;
+  text-decoration: none;
 }
 
 .next-rectangle .buton {
@@ -357,38 +356,57 @@ body {
   text-decoration: none;
 }
 
-.project{
+.project {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 
-.project div{
+.project div {
   height: 300px;
-  background: #B4B4B4;
+  background: #b4b4b4;
   width: 33.3333333333333%;
 }
 
-.project div:nth-child(even){
-  background: #C8C8C8;
+.project div:nth-child(even) {
+  background: #c8c8c8;
 }
-
-/* 
-.project img {
-  background: #b4b4b4;
-  width: 427px;
-  height: 300px;
-  flex-shrink: 0;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  top: 0px;
-}
-.project img:hover {
-  top: -40px;
+.next-rectangle-wrapper .project div:hover {
+  top: -100px;
   cursor: pointer;
   box-shadow: 0px 20px 80px 0px rgba(0, 0, 0, 0.15);
-} */
+  transition: all 0.3s ease-in-out;
+}
+.third-section .clients-section {
+  color: #222a41;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+.third-section h2 {
+  color: #222a41;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 133.333% */
+  letter-spacing: -1.851px;
+}
+.third-section .another-description {
+  color: #6d7783;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  letter-spacing: -0, 8px;
+  margin: 0px;
+}
+.third-section .logo-section img {
+  width: 164px;
+  height: 100px;
+  flex-shrink: 0;
+  gap: 10;
+}
