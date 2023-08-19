@@ -414,6 +414,8 @@ body {
 .hero-section3 {
   display: flex;
   justify-content: center;
+  flex-shrink: 0;
+  gap: 0;
 }
 
 .hero3 {
@@ -455,8 +457,9 @@ body {
   line-height: 27px; /* 150% */
   display: flex;
   flex-direction: column;
+  gap: 10px;
 }
-.hero-section3 .hero3 div {
+.hero-section3 .hero3 /*.testimony-description */div {
   width: 196px;
   color: #000;
   font-size: 21px;
@@ -465,4 +468,12 @@ body {
   line-height: normal;
   display: flex;
   flex-direction: column;
+  gap: 10px;
+}
+
+.hero-section3 .hero3 div span {
+  width: 222px;
+  height: 6px;
+  flex-shrink: 0;
+  gap: 20px;
 }
