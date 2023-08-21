@@ -415,7 +415,7 @@ body {
   display: flex;
   justify-content: center;
   flex-shrink: 0;
-  gap: 0;
+  row-gap: 0;
 }
 
 .hero3 {
