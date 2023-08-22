@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 body {
-  font-family: "Livvic", sans-serif;
+  font-family: 'Livvic', sans-serif;
   margin: 0;
 }
 
@@ -151,10 +151,11 @@ body {
 .hero2 .img-wrapper2 {
   width: 420px;
   height: 420px;
-  border-radius: 28px;
+  border-radius: 18px;
   background: #b4b4b4;
   box-shadow: -40px 2px 80px 0px rgba(0, 0, 0, 0.5);
   overflow: hidden;
+  position: relative;
 }
 
 .hero2 .img-wrapper2 img {
@@ -165,50 +166,68 @@ body {
   position: absolute;
 }
 .hero2 .text2 {
-  width: 300px;
-  height: 250px;
+  width: 386px;
+  height: 405px;
+  flex-shrink: 0;
 }
 .hero2 .text2 .small2 {
+  width: 38px;
   color: #222a41;
-  font-size: 18px;
-  line-height: 27px;
-}
-.hero2 .text2 .nav2 {
-  color: #293340;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  margin-bottom: 20px;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
+  line-height: 27px; /* 150% */
+  gap: 0;
+  margin-top: 0;
 }
+.hero-section2 .hero2 .text2 h2 {
+  width: 283px;
+  height: 80px;
+  color: #222a41;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 133.333% */
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.hero2 .text2 .nav2 {
+  width: 283px;
+  display: flex;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  gap: 30px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.hero2 .text2 .nav2 a {
+  text-decoration: none;
+}
+
 .hero2 .text2 .description2 {
   width: 386px;
-  height: 120px;
   flex-shrink: 0;
   font-size: 15px;
   font-style: normal;
-  font-weight: 400;
   line-height: 24px; /* 160% */
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 .button2 {
-  width: 120px;
+  width: 154px;
   display: block;
   text-decoration: none;
-  height: 50px;
   line-height: 50px;
   background: #3b43f2;
   border-radius: 25px;
   box-shadow: 0px 14px 30px 0px rgba(69, 158, 255, 0.2);
   color: #fff;
   text-align: center;
-  margin-bottom: 20px;
+  padding-bottom: 0;
 }
 
 .third-section {
-  /* background-color: red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -243,12 +262,6 @@ body {
   justify-content: center;
   margin-top: 80px;
   gap: 30px;
-  /* align-items: center; */
-  /* 
-  max-width: 825px;
-  width: 100%;
-  margin-left: 10px;
-  height: calc(100vh - 55px); */
 }
 .first-rectangle .rectangle {
   background-color: rgb(111, 0, 255);
@@ -414,13 +427,6 @@ body {
   background: #c8c8c8;
 }
 
-/* .project div:hover {
-  top: -100px;
-  cursor: pointer;
-  box-shadow: 0px 20px 80px 0px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease-in-out;
-} */
-
 .third-section .clients-section {
   color: #222a41;
   text-align: center;
@@ -577,7 +583,7 @@ body {
 .last-section input,
 .last-section textarea {
   border: none;
-  font-family: "Livvic", sans-serif;
+  font-family: 'Livvic', sans-serif;
   font-size: 15px;
   border-bottom: 1px solid #aeb7c1;
   padding-left: 10px;
