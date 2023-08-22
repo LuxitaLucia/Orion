@@ -601,3 +601,32 @@ body {
   margin-top: 32px;
   margin-bottom: 70px;
 }
+.last-section .homepage {
+  width: 329px;
+  color: #222a41;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  margin-top: 100px;
+  gap: 20px;
+}
+.last-section .homepage a {
+  text-decoration: none;
+}
+.last-section .social {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.last-section .last-information {
+  width: 410px;
+  color: #6d7783;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 123.077% */
+  margin-top: 20px;
+}
